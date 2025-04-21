@@ -3,8 +3,8 @@ import { AgenciaBackData } from "./transformarAgenciaBackData";
 
 export const datosAgenciaSimuladaBack: AgenciaBackData = {
   idAgencia: 3,
-  nombre: "Proximo Destino",
-  logo: "/logo2.png",
+  nombre: "Vagu Viajes",
+  logo: "/logosf.png",
   tipografia_agencia: "Verdana",
   color_tipografia_agencia: "#212121",
   color_fondo_app: "#FFF3F3", // Fondo muy suave rosado
@@ -15,7 +15,7 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
 
   header_imagen_background: "/fondo-playa.jpg",
   header_imagen_background_opacidad: 0.2,
-  header_video_background: "/video1.mp4",
+  header_video_background: "/videoc.mp4",
   header_video_background_opacidad: 0.3,
 
   buscador_tipografia: "Verdana",
@@ -33,9 +33,9 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   publicidad_color_primario: "#C62828",
   publicidad_color_secundario: "#EF9A9A",
   publicidad_color_terciario: "#8E0000",
-  publicidad_imagen_1: "paginaWeb/arboleda.jpg",
-  publicidad_imagen_2: "paginaWeb/colombia.jpg",
-  publicidad_imagen_3: "paginaWeb/rocas.jpg",
+  publicidad_imagen_1: "paginaWeb/amigas.jpg",
+  publicidad_imagen_2: "paginaWeb/cruta.jpg",
+  publicidad_imagen_3: "paginaWeb/ruta2.jpg",
 
   tarjetas_titulo: "Destinos recomendados",
   tarjetas_tipografia: "Verdana",
