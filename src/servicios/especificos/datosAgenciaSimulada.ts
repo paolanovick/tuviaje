@@ -1,17 +1,14 @@
-// src/servicios/datosAgenciaSimulada.ts
-import { AgenciaBackData } from "./transformarAgenciaBackData";
-
 export const datosAgenciaSimuladaBack: AgenciaBackData = {
   idAgencia: 3,
   nombre: "Vagu Viajes",
   logo: "/logosf.png",
   tipografia_agencia: "Verdana",
-  color_tipografia_agencia: "#212121",
-  color_fondo_app: "#FFF3F3", // Fondo muy suave rosado
+  color_tipografia_agencia: "#2E003E",
+  color_fondo_app: "#F3E5F5", // Lila muy suave
 
-  color_principal: "#C62828", // Rojo fuerte
-  color_secundario: "#EF9A9A", // Rojo claro / rosado
-  color_terciario: "#8E0000", // Bordó oscuro
+  color_principal: "#7B1FA2", // Violeta fuerte
+  color_secundario: "#CE93D8", // Lila claro
+  color_terciario: "#4A0072", // Violeta oscuro
 
   header_imagen_background: "/fondo-playa.jpg",
   header_imagen_background_opacidad: 0.2,
@@ -20,59 +17,55 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
 
   buscador_tipografia: "Verdana",
   buscador_tipografia_color: "#FFFFFF",
-  buscador_tipografia_color_label: "#C62828",
-  buscador_inputColor: "#212121",
+  buscador_tipografia_color_label: "#7B1FA2",
+  buscador_inputColor: "#2E003E",
   buscador_inputFondoColor: "#FFFFFF",
-  buscador_color_primario: "#C62828",
-  buscador_color_secundario: "#EF9A9A",
+  buscador_color_primario: "#7B1FA2",
+  buscador_color_secundario: "#CE93D8",
   buscador_color_terciario: "white",
 
   publicidad_existe: true,
   publicidad_titulo: "Ofertas imperdibles",
-  publicidad_tipografia_color: "#C62828",
-  publicidad_color_primario: "#C62828",
-  publicidad_color_secundario: "#EF9A9A",
-  publicidad_color_terciario: "#8E0000",
-  publicidad_imagen_1: "paginaWeb/amigas.jpg",
-  publicidad_imagen_2: "paginaWeb/cruta.jpg",
-  publicidad_imagen_3: "paginaWeb/ruta2.jpg",
+  publicidad_tipografia_color: "#7B1FA2",
+  publicidad_color_primario: "#7B1FA2",
+  publicidad_color_secundario: "#CE93D8",
+  publicidad_color_terciario: "#4A0072",
+  publicidad_imagen_1: "paginaWeb/arboleda.jpg",
+  publicidad_imagen_2: "paginaWeb/colombia.jpg",
+  publicidad_imagen_3: "paginaWeb/rocas.jpg",
 
   tarjetas_titulo: "Destinos recomendados",
   tarjetas_tipografia: "Verdana",
   tarjetas_tipografia_color: "white",
-  tarjetas_tipografia_color_titulo: "#C62828",
-  tarjetas_tipografia_color_contenido: "#555555",
-  tarjetas_color_primario: "#C62828",
-  tarjetas_color_secundario: "white", // Rosado más claro
-  tarjetas_color_terciario: "#8E0000",
+  tarjetas_tipografia_color_titulo: "#7B1FA2",
+  tarjetas_tipografia_color_contenido: "#4A0072",
+  tarjetas_color_primario: "#7B1FA2",
+  tarjetas_color_secundario: "white",
+  tarjetas_color_terciario: "#4A0072",
 
   banner_registro_titulo: "Registrate y viajá con nosotros",
   banner_registro_tipografia_color: "#FFFFFF",
-  banner_registro_color_primario: "#C62828",
-  banner_registro_color_secundario: "#EF9A9A",
-  banner_registro_color_terciario: "#8E0000",
+  banner_registro_color_primario: "#7B1FA2",
+  banner_registro_color_secundario: "#CE93D8",
+  banner_registro_color_terciario: "#4A0072",
 
-  quienes_somos_es: "Próximo Destino nació con el objetivo de ofrecer a viajeros de todas las edades las herramientas y asesoramiento para explorar el mundo a su manera. ",
-  quienes_somos_en: "Next Destination was born with the aim of offering travelers of all ages the tools and advice to explore the world in their own way. ",
-  quienes_somos_pt: "Próximo Destino nasceu com o objetivo de oferecer aos viajantes de todas as idades as ferramentas e conselhos para explorar o mundo à sua maneira. ",
+  quienes_somos_es: "Vagu Viajes nació con el objetivo de ofrecer a viajeros de todas las edades las herramientas y asesoramiento para explorar el mundo a su manera.",
+  quienes_somos_en: "Vagu Viajes was born with the aim of offering travelers of all ages the tools and advice to explore the world in their own way.",
+  quienes_somos_pt: "Vagu Viajes nasceu com o objetivo de oferecer aos viajantes de todas as idades as ferramentas e conselhos para explorar o mundo à sua maneira.",
 
-  footer_texto: "© 2025 Proximo Destino - Todos los derechos reservados",
+  footer_texto: "© 2025 Vagu Viajes - Todos los derechos reservados",
   footer_tipografia: "Verdana",
   footer_tipografia_color: "white",
-  footer_facebook: "https://www.facebook.com/proximo.destino",
+  footer_facebook: "https://www.facebook.com/vagu.viajes",
   footer_twitter: "x",
   footer_instagram: "x",
   footer_whatsapp: "https://wa.me/5491123456789",
   footer_telefono: "5493476652519",
-  footer_email: "consultas@proximosdestinos.tur.ar",
+  footer_email: "consultas@vaguviajes.com.ar",
   footer_direccion: "3 de Febrero 721",
-  footer_ciudad: " San Lorenzo  Santa Fe",
+  footer_ciudad: "San Lorenzo, Santa Fe",
   footer_pais: "Argentina",
-footer_color_primario: "#C62828",      // rojo fuerte
-footer_color_secundario: "#FFCDD2",    // rosado claro pastel
-footer_color_terciario: "#7B1F1F" // bordó apagado, elegante, combina con tu rojo y deja ver el logo y el texto
-    // rojo desaturado suave
-          // rojo intermedio más claro que antes
-// rojo suave intermedio
- // Más oscuro que el terciario para contraste
+  footer_color_primario: "#7B1FA2",
+  footer_color_secundario: "#E1BEE7",
+  footer_color_terciario: "#4A0072"
 };
