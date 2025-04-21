@@ -100,10 +100,11 @@ const PublicidadCliente: React.FC = () => {
           src={imagen}
           alt={`Publicidad ${index + 1}`}
           sx={{
-            width: "100%",
-    aspectRatio: "16 / 9", // responsive
-            objectFit: "cover",
-            borderRadius: "15px",
+           width: "100%",
+    height: "auto",
+    maxHeight: { xs: "250px", sm: "400px", md: "500px" },
+    objectFit: "cover",
+    borderRadius: "15px",
           }}
         />
       </Box>
