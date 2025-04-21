@@ -58,7 +58,8 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
 
   footer_texto: "© 2025 Proximo Destino - Todos los derechos reservados",
   footer_tipografia: "Verdana",
-  footer_tipografia_color: "white",
+ footer_tipografia_color: "#212121", // texto oscuro para que se lea sobre fondo claro
+
   footer_facebook: "https://www.facebook.com/proximo.destino",
   footer_twitter: "x",
   footer_instagram: "x",
