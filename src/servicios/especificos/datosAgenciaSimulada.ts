@@ -33,7 +33,7 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   publicidad_color_primario: "#C62828",
   publicidad_color_secundario: "#EF9A9A",
   publicidad_color_terciario: "#8E0000",
-  publicidad_imagen_1: "paginaWeb/banner1.png",
+  publicidad_imagen_1: "paginaWeb/arboleda.jpg",
   publicidad_imagen_2: "paginaWeb/colombia.jpg",
   publicidad_imagen_3: "paginaWeb/rocas.jpg",
 
