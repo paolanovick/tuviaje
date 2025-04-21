@@ -70,7 +70,8 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   footer_pais: "Argentina",
 footer_color_primario: "#C62828",      // rojo fuerte
 footer_color_secundario: "#FFCDD2",    // rosado claro pastel
-footer_color_terciario: "#F5EAEA",     // rojo desaturado suave
+footer_color_terciario: "#7B1F1F" // bordó apagado, elegante, combina con tu rojo y deja ver el logo y el texto
+    // rojo desaturado suave
           // rojo intermedio más claro que antes
 // rojo suave intermedio
  // Más oscuro que el terciario para contraste
