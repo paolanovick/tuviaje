@@ -95,17 +95,17 @@ const PublicidadCliente: React.FC = () => {
         <Slider {...settings} aria-label="Carrusel de imágenes publicitarias">
           {imagenes.map((imagen, index) => (
             <Box key={index} sx={{ display: "flex", justifyContent: "center" }}>
-              <img
-                src={imagen}
-                alt={`Publicidad ${index + 1}`}
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  maxHeight: isMobile ? "300px" : "500px",
-                  objectFit: "cover",
-                  borderRadius: "15px",
-                }}
-              />
+             <img
+  src={imagen}
+  alt={`Publicidad ${index + 1}`}
+  style={{
+    width: "100%",
+    height: isMobile ? "250px" : "400px", // alto fijo y uniforme
+    objectFit: "cover",
+    borderRadius: "15px",
+  }}
+/>
+
             </Box>
           ))}
         </Slider>
