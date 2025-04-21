@@ -1,3 +1,6 @@
+// src/servicios/datosAgenciaSimulada.ts
+import { AgenciaBackData } from "./transformarAgenciaBackData";
+
 export const datosAgenciaSimuladaBack: AgenciaBackData = {
   idAgencia: 3,
   nombre: "Vagu Viajes",
