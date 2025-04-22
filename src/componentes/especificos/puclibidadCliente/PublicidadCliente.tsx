@@ -116,6 +116,7 @@ const PublicidadCliente: React.FC = () => {
             maxHeight: "100%",
             objectFit: "contain",
             display: "block",
+              margin: "0 auto", // <- esto centra horizontalmente
           }}
         />
       </Box>
