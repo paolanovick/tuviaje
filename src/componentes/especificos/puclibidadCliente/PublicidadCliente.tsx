@@ -90,27 +90,37 @@ const PublicidadCliente: React.FC = () => {
         {titulo}
       </Typography>
 
-      {/* 🔥 CARRUSEL */}
-    <Box sx={{ position: "relative", zIndex: 1 }}>
+   {/* 🔥 CARRUSEL */}
+<Box sx={{ position: "relative", zIndex: 1 }}>
   <Slider {...settings} aria-label="Carrusel de imágenes publicitarias">
     {imagenes.map((imagen, index) => (
-      <Box key={index} sx={{ display: "flex", justifyContent: "center" }}>
+      <Box
+        key={index}
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: { xs: "250px", sm: "400px", md: "500px" },
+          backgroundColor: "#f4f4f4", // opcional, para rellenar el fondo
+          borderRadius: "15px",
+        }}
+      >
         <Box
           component="img"
           src={imagen}
           alt={`Publicidad ${index + 1}`}
           sx={{
-           width: "100%",
-    height: "auto",
-    maxHeight: { xs: "250px", sm: "400px", md: "500px" },
-    objectFit: "cover",
-    borderRadius: "15px",
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+            borderRadius: "15px",
           }}
         />
       </Box>
     ))}
   </Slider>
 </Box>
+
 
 
 
