@@ -35,7 +35,7 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   publicidad_color_terciario: "#4A0072",
   publicidad_imagen_1: "paginaWeb/banner5.png",
   publicidad_imagen_2: "paginaWeb/banner4.png",
-  publicidad_imagen_3: "paginaWeb/banner3.png",
+  publicidad_imagen_3: "paginaWeb/banner1.png",
 
   tarjetas_titulo: "Destinos recomendados",
   tarjetas_tipografia: "Verdana",
