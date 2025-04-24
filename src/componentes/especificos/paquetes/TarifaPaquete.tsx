@@ -62,7 +62,7 @@ const TarifaPaquete = ({ tarifa, impuestos, total, wp, cargando = false }: Tarif
             </Typography>
 
             <Typography variant="h3" fontWeight="bold" sx={{ color: colorTipografia }}>
-              USD {formatearValor(tarifa)}
+              $ {formatearValor(tarifa)}
             </Typography>
           </Box>
 
