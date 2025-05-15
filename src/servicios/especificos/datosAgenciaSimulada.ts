@@ -4,7 +4,7 @@ import { AgenciaBackData } from "./transformarAgenciaBackData";
 export const datosAgenciaSimuladaBack: AgenciaBackData = {
   idAgencia: 3,
   nombre: "Tu Viaje",
-  logo: "/LogoSF.png",
+  logo: "/nuevoLogo.png",
   tipografia_agencia: "Montserrat",
   color_tipografia_agencia: "#2E003E",
   color_fondo_app: "#FFF3F3", // Blanco rosado que combina con el rojo
@@ -42,9 +42,9 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   tarjetas_tipografia_color: "#FB0209", //fonde footer tajeta
   tarjetas_tipografia_color_titulo: "#FB0209", //tiulo destacados del mes
   tarjetas_tipografia_color_contenido: "#000000", //letras medio tarjeta
-  tarjetas_color_primario: "#fffffff", //color de fondo FOOTER de la tarjeta
-  tarjetas_color_secundario: "#FFFFFF",
-  tarjetas_color_terciario: "#f91c1e",
+  tarjetas_color_primario: "#ffffff", //color de fondo FOOTER de la tarjeta
+  tarjetas_color_secundario: "#ffffff",
+  tarjetas_color_terciario: "#ffffff",
 
   banner_registro_titulo: "Registrate y viajá con nosotros",
   banner_registro_tipografia_color: "#FFFFFF",
