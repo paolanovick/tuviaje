@@ -4,33 +4,33 @@ import { AgenciaBackData } from "./transformarAgenciaBackData";
 export const datosAgenciaSimuladaBack: AgenciaBackData = {
   idAgencia: 3,
   nombre: "Tu Viaje",
-  logo: "/logo.png",
-  tipografia_agencia: "Poppins",
+  logo: "/LogoSF.png",
+  tipografia_agencia: "Montserrat",
   color_tipografia_agencia: "#2E003E",
   color_fondo_app: "#FFF3F3", // Blanco rosado que combina con el rojo
 
-  color_principal: "#FB0209", // Rojo principal
-  color_secundario: "#FBE9E7", // Rosa coral claro
-  color_terciario: "#B71C1C", // Rojo oscuro/burdeo
+  color_principal: "#ffde59", 
+  color_secundario: "#ffde59",
+  color_terciario: "#ffde59", // Rojo oscuro/burdeo
 
   header_imagen_background: "/fondo-playa.jpg",
   header_imagen_background_opacidad: 0.2,
   header_video_background: "/videoc.mp4",
   header_video_background_opacidad: 0.3,
 
-  buscador_tipografia: "Poppins",
+  buscador_tipografia: "Montserrat",
   buscador_tipografia_color: "#000000",
-  buscador_tipografia_color_label: "#FB0209",
-  buscador_inputColor: "#2E003E",
+  buscador_tipografia_color_label: "#000000",
+  buscador_inputColor: "#ffffff",
   buscador_inputFondoColor: "#000000",
-  buscador_color_primario: "#FB0209",
-  buscador_color_secundario: "#FBE9E7",
-  buscador_color_terciario: "black",
+  buscador_color_primario: "#ffffff", //boton buscar
+  buscador_color_secundario: "#ffffff",
+  buscador_color_terciario: "#ffde59",
 
   publicidad_existe: true,
   publicidad_titulo: "Ofertas imperdibles",
   publicidad_tipografia_color: "#FB0209",
-  publicidad_color_primario: "#FB0209",
+  publicidad_color_primario: "#ffffff",
   publicidad_color_secundario: "#FBE9E7",
   publicidad_color_terciario: "#B71C1C",
   publicidad_imagen_1: "paginaWeb/banner5.png",
@@ -38,13 +38,13 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   publicidad_imagen_3: "paginaWeb/banner1.png",
 
   tarjetas_titulo: "Destinos recomendados",
-  tarjetas_tipografia: "Poppins",
-  tarjetas_tipografia_color: "#FB0209",
-  tarjetas_tipografia_color_titulo: "#FB0209",
-  tarjetas_tipografia_color_contenido: "#FB0209",
-  tarjetas_color_primario: "#000000",
-  tarjetas_color_secundario: "000000",
-  tarjetas_color_terciario: "#000000",
+  tarjetas_tipografia: "Montserrat",
+  tarjetas_tipografia_color: "#FB0209", //fonde footer tajeta
+  tarjetas_tipografia_color_titulo: "#FB0209", //tiulo destacados del mes
+  tarjetas_tipografia_color_contenido: "#000000", //letras medio tarjeta
+  tarjetas_color_primario: "#fffffff", //color de fondo FOOTER de la tarjeta
+  tarjetas_color_secundario: "#FFFFFF",
+  tarjetas_color_terciario: "#f91c1e",
 
   banner_registro_titulo: "Registrate y viajá con nosotros",
   banner_registro_tipografia_color: "#FFFFFF",
@@ -69,6 +69,6 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   footer_ciudad: "Marcos Juárez",
   footer_pais: "Argentina",
   footer_color_primario: "#000000",
-  footer_color_secundario: "#FBE9E7",
+  footer_color_secundario: "#ffde59",
   footer_color_terciario: "#000000"
 };
