@@ -51,7 +51,7 @@ const PanelFiltros = () => {
           >
             <Typography
               sx={{
-                fontFamily: "Verdana, sans-serif",
+                fontFamily: "Montserrat",
                 fontSize: "0.875rem",
                 color: colorTexto,
               }}
@@ -79,7 +79,7 @@ const PanelFiltros = () => {
                 sx={{
                   fontWeight: "bold",
                   fontSize: "0.9rem",
-                  fontFamily: "Verdana, sans-serif",
+                  fontFamily: "Montserrat",
                 }}
               >
                 Filtros

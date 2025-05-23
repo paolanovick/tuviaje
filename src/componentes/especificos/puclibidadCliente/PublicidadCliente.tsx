@@ -17,7 +17,7 @@ const PublicidadCliente: React.FC = () => {
   }
 
   const titulo = publicidadCliente.titulo || "Promociones Especiales";
-  const tipografia = "Verdana, Arial, sans-serif";
+  const tipografia = " Montserrat";
   const colorTexto =
     publicidadCliente?.tipografiaColor ||
     datosGenerales?.colorTipografiaAgencia ||

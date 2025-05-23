@@ -40,7 +40,7 @@ const OrdenarPaquetes = () => {
           gap: 0.5,
           color: colorTexto,
           fontWeight: "bold",
-          fontFamily: "Verdana, sans-serif",
+          fontFamily: " Montserrat",
           fontSize: esMobile ? "0.8rem" : "0.9rem",
           cursor: esMobile ? "pointer" : "default",
           borderRadius: esMobile ? "999px" : 0,
