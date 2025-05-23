@@ -28,7 +28,7 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   buscador_color_terciario: "#ffde59",
 
   publicidad_existe: true,
-  publicidad_titulo: "Ofertas imperdibles",
+  publicidad_titulo: "Oportunidades imperdibles",
   publicidad_tipografia_color: "#FB0209",
   publicidad_color_primario: "#ffffff",
   publicidad_color_secundario: "#FBE9E7",
