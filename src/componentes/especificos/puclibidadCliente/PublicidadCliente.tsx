@@ -95,28 +95,16 @@ const PublicidadCliente: React.FC = () => {
 <Box sx={{ position: "relative", zIndex: 1 }}>
   <Slider {...settings} aria-label="Carrusel de imágenes publicitarias">
     {imagenes.map((imagen, index) => (
-      <Box
-        key={index}
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: { xs: "250px", sm: "400px", md: "500px" },
-          backgroundColor: "transparent", // usa el color de fondo de la página
-          borderRadius: "15px",
-          overflow: "hidden", // por si alguna imagen sobresale
-        }}
-      >
+      <Box key={index} sx={{ display: "flex", justifyContent: "center" }}>
         <Box
           component="img"
           src={imagen}
           alt={`Publicidad ${index + 1}`}
           sx={{
-            maxWidth: "100%",
             width: "100%",
             height: { xs: "250px", sm: "400px" , lg: "700px"}, // responsive
             objectFit: "cover",
-            borderRadius: "15px",// <- esto centra horizontalmente
+            borderRadius: "15px",
           }}
         />
       </Box>
