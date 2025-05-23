@@ -113,10 +113,10 @@ const PublicidadCliente: React.FC = () => {
           alt={`Publicidad ${index + 1}`}
           sx={{
             maxWidth: "100%",
-            maxHeight: "100%",
-            objectFit: "contain",
-            display: "block",
-              margin: "0 auto", // <- esto centra horizontalmente
+            width: "100%",
+            height: { xs: "250px", sm: "400px" , lg: "700px"}, // responsive
+            objectFit: "cover",
+            borderRadius: "15px",// <- esto centra horizontalmente
           }}
         />
       </Box>
