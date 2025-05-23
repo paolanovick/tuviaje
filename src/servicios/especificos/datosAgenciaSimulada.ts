@@ -33,9 +33,9 @@ export const datosAgenciaSimuladaBack: AgenciaBackData = {
   publicidad_color_primario: "#ffffff",
   publicidad_color_secundario: "#FBE9E7",
   publicidad_color_terciario: "#B71C1C",
-  publicidad_imagen_1: "paginaWeb/banner5.png",
-  publicidad_imagen_2: "paginaWeb/banner4.png",
-  publicidad_imagen_3: "paginaWeb/banner1.png",
+  publicidad_imagen_1: "paginaWeb/carusel1.png",
+  publicidad_imagen_2: "paginaWeb/carusel2.png",
+  publicidad_imagen_3: "paginaWeb/carusel3.png",
 
   tarjetas_titulo: "Destinos recomendados",
   tarjetas_tipografia: "Montserrat",
